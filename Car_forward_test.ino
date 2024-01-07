@@ -3,8 +3,6 @@ for the SmartCar Shield v1.1, this has the TB6612FNG H-Bridge motor controller h
 
 */
 
-#include <Servo.h>
-
 #define PWMA 5 //this pin controls speed of motor A (left) - analog value 30-255 only (min speed 30 from experimentation, anything below this does not deliver sufficient power to run all 4 motors)
 #define PWMB 6 //this pin controls speed of motor B (right) - analog value 30-255 only
 
