@@ -32,8 +32,8 @@ LOW 	HIGH 	Counterclockwise
 Dir     Motor A   Motor B
 FORWARD HIGH      HIGH
 REVERSE LOW       LOW
-LEFT    LOW       HIGH
-RIGHT   HIGH      LOW
+RIGHT   LOW       HIGH
+LEFT    HIGH      LOW
 
 ---MOTOR SPEEDS (on carpet)---
 Experiment, run the car for 1000ms, then pause. Measure distance in meters.
