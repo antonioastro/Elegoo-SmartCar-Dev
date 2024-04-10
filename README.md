@@ -14,4 +14,4 @@ Future plans include:
 
 Once all work is done, I will create a new repository for the final product.
 
-If you have any queries, please push it as an issue and I will answer as soon as possible - or contact me on Twitter/X @antonioastro_
+If you have any queries or suggestions, please push it as an issue and I will answer as soon as possible - or contact me on Twitter/X @antonioastro_
