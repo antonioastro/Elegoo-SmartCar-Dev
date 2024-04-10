@@ -1,4 +1,4 @@
-A developmental update as I work on my Elegoo SmartCar v2, attempting to programme it fully myself. 
+A developmental update as I work on my Elegoo SmartCar v4.0, attempting to programme it fully myself. 
 
 Each file in this directory is a different iteration of my work, and runs as a single ino file to upload to the Arduino. The latest is "Car_remote_control_v2"
 
