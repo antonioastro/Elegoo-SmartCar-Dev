@@ -1,6 +1,6 @@
 A developmental update as I work on my Elegoo SmartCar v4.0, attempting to programme it fully myself. 
 
-Each file in this directory is a different iteration of my work, and runs as a single ino file to upload to the Arduino. The latest is "Car_remote_control_v2"
+Each file in this directory is a different iteration of my work, and runs as a single ino file to upload to the Arduino. The latest is "Car_remote_control_v3"
 
 Currently this only includes:
 -Automatic patrol of the car, using ultrasonics for obstacle avoidance
