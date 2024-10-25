@@ -296,13 +296,15 @@ void stop(){
 
 void rotate90left(){ //calibrated to rotate the car exactly 90 degrees to the left when MotorSpeed is 75 - this is only used on AutoPilot mode
   turn_left();
-  delay(1000);
+  flash_led_red();
+  //delay(1000);
   stop();
 }
 
 void rotate90right(){ //calibrated to rotate the car exactly 90 degees to the right
   turn_right();
-  delay(1000);
+  flash_led_red();
+  //delay(1000);
   stop();
 }
 
