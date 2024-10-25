@@ -1,0 +1,59 @@
+for the SmartCar Shield v1.1, this has the TB6612FNG H-Bridge motor controller https://dronebotworkshop.com/tb6612fng-h-bridge/
+
+---MOTOR SIDES---
+LEFT  Motors A. FRONT M1, REAR M4
+RIGHT Motors B. FRONT M2, REAR M3 --note that FRONT and REAR motors cannot be controlled individually.
+
+---CONTROLLING THE MOTORS--- both motors A and B have 2 inputs.
+IN1 	IN2 	Mode
+HIGH  HIGH 	Short Brake --since IN2 is IN1 passed through Schmitt, I am not sure how to get these first 2 motor modes...
+LOW  	LOW 	Stop ^
+HIGH  LOW   Clockwise
+LOW 	HIGH 	Counterclockwise
+
+---DIRECTIONALS---
+Dir     Motor A   Motor B
+FORWARD HIGH      HIGH
+REVERSE LOW       LOW
+LEFT    HIGH      LOW
+RIGHT   LOW       HIGH
+
+---MOTOR SPEEDS (on carpet)---
+Experiment, run the car for 1000ms, then pause. Measure distance in meters.
+
+PWM value   Speed m/s 
+30          0.06 
+50          0.13
+100         0.29  
+125         0.37
+150         0.47 
+200         0.63
+255         0.81
+
+========================================================================
+
+Hex Keys for remote control - current Sky TV Remote:
+UP	 	      8A774570	//forwards
+LEFT 	    	AC390F87	//left
+RIGHT 		  AB390DF4	//right
+DOWN		    1D407D2D	//reverse
+CHANNEL_UP 	B6C3F7B0	//SpeedUp
+CHANNEL_DWN	AACAD56D	//SpeedDown
+PAUSE		    C2ECF552
+PLAY		    D621733
+NUMPAD_1	  4A19F6EF
+NUMPAD_2	  211777CB
+NUMPAD_3	  2217795E
+NUMPAD_4	  9E87E040
+NUMPAD_5	  62850C18
+NUMPAD_6	  E3D3C987
+NUMPAD_7	  E2D3C7F2
+NUMPAD_8	  8B13B370
+NUMPAD_9	  79FBB2D
+NUMPAD_0	  BB2AC05E
+SELECT		  70AF0C34	//stop
+ARROWS>>	  661B0FE   //camera pan RIGHT - not set up yet, but intended for this.
+ARROWS<<	  22C77576  //camera pan LEFT
+BACKUP		  F24BFC4   //reverse for 1 second and turn in a random direction - not integrated yet,
+HELP		    9F1D53AD	//RESET SPEED
+=======================================================================
